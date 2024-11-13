@@ -32,5 +32,4 @@ services:
 databases:
   - name: strapi
     plan: free
-    instance_type: basic
     ipAllowList: []
