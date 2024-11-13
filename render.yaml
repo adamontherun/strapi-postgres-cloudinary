@@ -31,6 +31,6 @@ services:
 
 databases:
   - name: strapi
-    instanceType: basic-xs
-    ipAllowList: []
     plan: free
+    instance_type: basic
+    ipAllowList: []
