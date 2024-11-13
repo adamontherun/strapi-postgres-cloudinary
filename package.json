@@ -11,12 +11,16 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "5.0.0",
-    "@strapi/plugin-users-permissions": "5.0.0",
-    "@strapi/plugin-i18n": "5.0.0",
-    "@strapi/provider-upload-cloudinary": "5.0.0",
+    "@strapi/strapi": "5.3.0",
+    "@strapi/plugin-users-permissions": "5.3.0",
+    "@strapi/plugin-i18n": "5.3.0",
+    "@strapi/provider-upload-cloudinary": "5.3.0",
     "pg": "^8.11.3",
-    "pg-connection-string": "^2.6.2"
+    "pg-connection-string": "^2.6.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
   },
   "author": {
     "name": "A Strapi developer"
@@ -25,7 +29,7 @@
     "uuid": "5dbc738b-6a52-4a78-a46c-eed70aa61c15"
   },
   "engines": {
-    "node": ">=18.0.0 <=20.x.x",
+    "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
