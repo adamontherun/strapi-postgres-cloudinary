@@ -31,4 +31,6 @@ services:
 
 databases:
   - name: strapi
-    plan: starter
+    instanceType: basic-xs
+    ipAllowList: []
+    plan: free
